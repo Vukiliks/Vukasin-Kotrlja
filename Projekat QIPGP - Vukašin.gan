@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projekat QIPGP" company="Vukašin Kotrlja" webLink="http://" view-date="2020-11-23" view-index="0" gantt-divider-location="591" resource-divider-location="300" version="2.8.11" locale="en_US">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="365" order="0"/>
+        <field id="tpd4" name="Begin date" width="109" order="1"/>
+        <field id="tpd5" name="End date" width="113" order="2"/>
+        <option id="color.recent"><![CDATA[#ffffff #cccccc #00ffcc #ff9900 #ff66ff #00cc00 #ffff33 #cc0000 #00ff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="sr">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="1" tue="1" wed="1" thu="1" fri="1" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY" color="#ff9999"><![CDATA[Нова година]]></date>
+        <date year="" month="1" date="2" type="HOLIDAY" color="#ff9999"><![CDATA[Нова година]]></date>
+        <date year="" month="1" date="7" type="HOLIDAY" color="#ff9999"><![CDATA[Божић]]></date>
+        <date year="" month="1" date="27" type="NEUTRAL" color="#808080"><![CDATA[св. Сава]]></date>
+        <date year="" month="2" date="15" type="HOLIDAY" color="#ff9999"><![CDATA[Сретење - дан државности]]></date>
+        <date year="" month="2" date="16" type="HOLIDAY" color="#ff9999"><![CDATA[Сретење - дан државности]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY" color="#ff9999"><![CDATA[Празник рада]]></date>
+        <date year="" month="5" date="2" type="HOLIDAY" color="#ff9999"><![CDATA[Празник рада]]></date>
+        <date year="" month="5" date="9" type="NEUTRAL"><![CDATA[Дан победе]]></date>
+        <date year="" month="6" date="28" type="NEUTRAL"><![CDATA[Видовдан]]></date>
+        <date year="" month="10" date="21" type="NEUTRAL"><![CDATA[Дан сећања на српске жртве у 2. светском рату]]></date>
+        <date year="" month="11" date="11" type="HOLIDAY" color="#ff9999"><![CDATA[Дан примирја у 1. светском рату]]></date>
+        <date year="2015" month="4" date="10" type="HOLIDAY" color="#ff9999"><![CDATA[Велики Петак]]></date>
+        <date year="2015" month="4" date="12" type="HOLIDAY" color="#ff9999"><![CDATA[Васкрс]]></date>
+        <date year="2015" month="4" date="13" type="HOLIDAY" color="#ff9999"><![CDATA[Васкршњи Понедељак]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Projekat QIPGP" color="#cc0000" meeting="false" project="true" start="2020-11-23" duration="28" complete="0" thirdDate="2020-11-23" thirdDate-constraint="1" expand="true">
+            <task id="14" name="Uvodna procedura" color="#00ff00" meeting="false" start="2020-11-23" duration="3" complete="0" thirdDate="2020-11-23" thirdDate-constraint="0" expand="true">
+                <task id="22" name="Instalacija programa qGIS" color="#00cc00" meeting="false" start="2020-11-23" duration="2" complete="0" thirdDate="2020-11-23" thirdDate-constraint="0" expand="true"/>
+                <task id="21" name="Podešavanje radnog okruženja u qGIS-u" color="#00cc00" meeting="false" start="2020-11-24" duration="2" complete="0" thirdDate="2020-11-23" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="57" name="Učitavanje podataka u qGIS" color="#ffff33" meeting="false" start="2020-11-25" duration="1" complete="0" thirdDate="2020-11-23" thirdDate-constraint="0" expand="true"/>
+            <task id="56" name="Analiza podataka unetih u qGIS" color="#ff66ff" meeting="false" start="2020-11-25" duration="11" complete="0" thirdDate="2020-11-21" thirdDate-constraint="0" expand="true">
+                <task id="93" name="Poćetak analize" color="#ff66ff" meeting="false" start="2020-11-25" duration="6" complete="0" thirdDate="2020-11-16" thirdDate-constraint="0" expand="true"/>
+                <task id="65" name="Angažovanje stručne pomoći za potrebe analize" color="#ff66ff" meeting="false" start="2020-11-30" duration="1" complete="0" thirdDate="2020-11-21" thirdDate-constraint="0" expand="true"/>
+                <task id="69" name="Završetak analize unetih podataka" color="#ff66ff" meeting="false" start="2020-11-30" duration="6" complete="0" thirdDate="2020-11-21" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="72" name="Obrada podataka u programu qGIS" color="#ff9900" meeting="false" start="2020-12-05" duration="6" complete="0" thirdDate="2020-11-21" thirdDate-constraint="0" expand="true"/>
+            <task id="75" name="Izrada izveštaja o celokupnoj proceduri" color="#00ffcc" meeting="false" start="2020-12-10" duration="9" complete="0" thirdDate="2020-11-20" thirdDate-constraint="0" expand="true"/>
+            <task id="76" name="Priprema za predaju projekta" color="#cccccc" meeting="false" start="2020-12-18" duration="2" complete="0" thirdDate="2020-11-20" thirdDate-constraint="0" expand="true"/>
+            <task id="77" name="Predaja i prezentacija projekta" color="#ffffff" meeting="false" start="2020-12-20" duration="1" complete="0" thirdDate="2020-11-20" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
